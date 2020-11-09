@@ -1,0 +1,6 @@
+[user]
+	name = Matt Rixman
+	email = github@matt.rixman.org
+[includeIf "gitdir:~/src/conducto/"]
+	path = ~/.gitconfigs/work
+
