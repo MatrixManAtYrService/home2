@@ -1,0 +1,7 @@
+# replace lines like "make me a sandwich bitch"
+#          with "sudo make me a sandwich"
+
+if [[ "$BUFFER" == *" bitch" ]]; then
+    BUFFER="sudo ${BUFFER% bitch}"
+fi
+zle .accept-line

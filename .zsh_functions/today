@@ -1,0 +1,2 @@
+echo "    type \`popd\` to go back to $(pwd)"
+pushd $(todaydir)

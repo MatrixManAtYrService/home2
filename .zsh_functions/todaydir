@@ -1,0 +1,3 @@
+DAYDIR=~/$(date +%F | sed 's#-#/#g')/
+mkdir -p $DAYDIR
+echo $DAYDIR
